@@ -2,7 +2,10 @@
 
 This project is starter react app that uses TypeScript and Mterial-UI.
 Please enjoy your development!
-Updated libraries' versions at 12/18/2020
+
+- Updated libraries' versions at 12/18/2020
+
+![Screen Image](./misc/screen_image.jpg)
 
 ## How to Start
 

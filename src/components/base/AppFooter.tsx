@@ -1,8 +1,7 @@
-import React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core";
-import { LinkText } from "../common";
-import { PAGES } from "../../configs/constants";
+import { LinkText } from "components/common";
+import { PAGES } from "configs/constants";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

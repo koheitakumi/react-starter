@@ -10,8 +10,8 @@ import {
   Toolbar,
   Typography,
 } from "@material-ui/core";
-import { LinkText, Spacer } from "../common";
-import { PAGES } from "../../configs/constants";
+import { LinkText, Spacer } from "components/common";
+import { PAGES } from "configs/constants";
 import MenuIcon from "@material-ui/icons/Menu";
 
 interface Props extends React.Attributes {

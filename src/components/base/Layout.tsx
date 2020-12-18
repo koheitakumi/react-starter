@@ -1,4 +1,3 @@
-import React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { Container, Grid } from "@material-ui/core";
 import AppBar from "./AppBar";

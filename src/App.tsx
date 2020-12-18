@@ -1,11 +1,10 @@
-import React from "react";
 import "./App.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { defaultTheme } from "./libs/theme";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import Test from "./pages/test";
-import Layout from "./components/base/Layout";
+import Test from "pages/test";
+import Layout from "components/base/Layout";
 
 function App() {
   return (
