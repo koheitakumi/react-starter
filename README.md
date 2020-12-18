@@ -2,6 +2,21 @@
 
 This project is starter react app that uses TypeScript and Mterial-UI.
 Please enjoy your development!
+Updated libraries' versions at 12/18/2020
+
+## How to Start
+
+### Clone this project.
+
+```sh
+$ git clone https://github.com/koheitakumi/react-starter.git my-project
+```
+
+### Install libraries
+
+```sh
+$ yarn install
+```
 
 ## Available Scripts
 
@@ -29,6 +44,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn build-nomap`
+
+Builds the app for production without a source map file. This allows the app not to publish the row code.
 
 ### `yarn eject`
 

@@ -1,13 +1,13 @@
-import palette from "../palette";
+import { palette } from "../palette";
 
-export default {
+export const MuiTableRow = {
   root: {
     "&$selected": {
-      backgroundColor: palette.secondary.light,
+      backgroundColor: palette.background.default,
     },
     "&$hover": {
       "&:hover": {
-        backgroundColor: palette.secondary.light,
+        backgroundColor: palette.background.default,
       },
     },
   },

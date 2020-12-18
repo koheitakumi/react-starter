@@ -1,8 +1,7 @@
-// import { colors } from "@material-ui/core";
-import palette from "../palette";
+import { colors } from "@material-ui/core";
 
-export default {
+export const MuiTableHead = {
   root: {
-    backgroundColor: palette.primary.main,
+    backgroundColor: colors.grey[50],
   },
 };

@@ -1,5 +1,5 @@
-export default {
+export const MuiTypography = {
   gutterBottom: {
-    marginBottom: 8
-  }
+    marginBottom: 8,
+  },
 };

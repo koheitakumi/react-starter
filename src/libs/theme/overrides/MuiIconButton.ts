@@ -1,6 +1,6 @@
-import palette from "../palette";
+import { palette } from "../palette";
 
-export default {
+export const MuiIconButton = {
   root: {
     color: palette.icon,
     "&:hover": {

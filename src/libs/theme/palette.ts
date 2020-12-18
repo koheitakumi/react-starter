@@ -1,24 +1,22 @@
 import { colors } from "@material-ui/core";
 
 const white = "#FFFFFF";
-const black = "#00171F";
+const black = "#000000";
 
-// Color palette tool
-// https://coolors.co/ffffff-00171f-003459-007ea7-00a8e8
-export default {
+const palette = {
   black,
   white,
   primary: {
     contrastText: white,
-    dark: "#007EA7",
-    main: "#007EA7",
-    light: "#007EA7",
+    dark: colors.indigo[900],
+    main: colors.indigo[500],
+    light: colors.indigo[100],
   },
   secondary: {
     contrastText: white,
-    dark: "#003459",
-    main: "#003459",
-    light: "#003459",
+    dark: colors.blue[900],
+    main: colors.blue["A400"],
+    light: colors.blue["A400"],
   },
   success: {
     contrastText: white,
@@ -44,6 +42,17 @@ export default {
     main: colors.red[600],
     light: colors.red[400],
   },
-  icon: "#bfab52",
+  text: {
+    primary: colors.blueGrey[900],
+    secondary: colors.blueGrey[600],
+    link: colors.blue[600],
+  },
+  background: {
+    default: "#F4F6F8",
+    paper: white,
+  },
+  icon: colors.blueGrey[600],
   divider: colors.grey[200],
 };
+
+export { palette };

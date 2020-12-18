@@ -1,7 +1,7 @@
-import palette from "../palette";
-import typography from "../typography";
+import { palette } from "../palette";
+import { typography } from "../typography";
 
-export default {
+export const MuiTableCell = {
   root: {
     ...typography.body1,
     borderBottom: `1px solid ${palette.divider}`,
